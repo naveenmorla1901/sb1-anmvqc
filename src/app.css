@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom fonts */
+.font-primary {
+    font-family: "Roboto", "sans-serif";
+}
+
+.font-secondary {
+    font-family: "OpenSans", "sans-serif";
+}
+
+/* Custom styles */
+ActionBar {
+    background-color: #65adf1;
+    color: white;
+}
+
+Button {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+TextField {
+    padding: 12;
+    border-radius: 8;
+    background-color: #f3f4f6;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: white;
+    border-radius: 12;
+    elevation: 4;
+    margin: 8;
+    padding: 16;
+}
+
+.header-text {
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 16;
+}
+
+.subtitle-text {
+    font-size: 16;
+    color: #666;
+    margin-bottom: 8;
+}
+
+.action-button {
+    background-color: #65adf1;
+    color: white;
+    padding: 16;
+    border-radius: 8;
+    margin: 8 0;
+}
+
+.fab {
+    width: 60;
+    height: 60;
+    border-radius: 30;
+    background-color: #65adf1;
+    color: white;
+    font-size: 24;
+    elevation: 6;
+}
